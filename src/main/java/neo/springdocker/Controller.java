@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
     @GetMapping("/wish")
     public String wish(){
-        return "hello Neo";
+        return "hello! Neo";
     }
 }
